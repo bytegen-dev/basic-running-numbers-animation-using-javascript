@@ -1,0 +1,14 @@
+/* common fixes starts here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif;
+}
+/* common fixes ends here */
+
+
+/* general code applicable to all screens */

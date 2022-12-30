@@ -1,0 +1,19 @@
+/* code applicable to devices or screens as wide as 850px */
+@media screen and (max-width:850px) {}
+
+/* code applicable to devices or screens as wide as 300px */
+@media screen and (max-width:300px) {}
+
+/* code applicable to android devices */
+
+/* code applicable to iphone/ ipad/ ipod devices */
+
+/* code applicable to devices on portrait orientation */
+
+/* code applicable to devices on landscape orientation */
+
+/* code applicable to devices that dont prefer animations */
+
+/* code applicable to devices with adblock */
+
+/* code applicable to devices with adblock */
