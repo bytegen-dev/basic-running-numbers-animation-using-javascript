@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Running Numbers ❤</title>
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- dont forget to change the default icon -->
     <link rel="icon" href="icons/numbers.png">
@@ -19,16 +21,24 @@
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
+    <div class="navigation">
+        <div class="logo"><img src="icons/numbers.png" alt=""></div>
+        <div class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
     <section class="container" id="container">
     <div class="wrapper" id="wrapper">
         <div class="numbers-holder">
-            <span class="num1" id="num1" data-val="120">0</span>
-            <span class="num1" id="num2" data-val="350">0</span>
-            <span class="num1" id="num3" data-val="400">0</span>
+            <span class="num1 num" id="num1" data-val="120">0</span>
+            <span class="num2 num" id="num2" data-val="350">0</span>
+            <span class="num3 num" id="num3" data-val="400">0</span>
         </div>
     </div>
     </section>
-    <div class="footer"></div>
+    <div class="footer">
+        <span></span>
+    </div>
 
 
     <!-- my scroll stuff -->
