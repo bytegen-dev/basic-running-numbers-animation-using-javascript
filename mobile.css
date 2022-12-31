@@ -1,5 +1,30 @@
 /* code applicable to devices or screens as wide as 850px */
-@media screen and (max-width:850px) {}
+@media screen and (max-width:850px) {
+    .navigation{
+        height: 70px;
+    }
+
+    .container{
+        scale: 1;
+        padding: 0;
+    }
+
+    .numbers-holder{
+        /* border: 2px solid; */
+        flex-direction: column;
+        gap: 10vh;
+        border-radius: 30px;
+        width: 80vw;
+        padding: 30px 0;
+    }
+
+    .num{
+        font-size: 40px;
+    }
+
+    
+
+}
 
 /* code applicable to devices or screens as wide as 300px */
 @media screen and (max-width:300px) {}

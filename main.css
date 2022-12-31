@@ -84,9 +84,11 @@ body{
     transform: translateY(0);
 }
 
-.navigation.menu-show .links-holder a:hover{
-    color: #000f;
+.links-holder a:hover{
+    color: #000d;
+    text-decoration: underline;
 }
+
 
 .holder-options{
     /* border: 2px solid green; */
@@ -190,7 +192,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 500px;
-    height: 300px;
+    min-height: 300px;
 }
 
 .num{
@@ -199,7 +201,7 @@ body{
     color: #ffffff;
 }
 
-.link-holder{
-
+.links-holder a.home{
+    color: #000d;
 }
 
