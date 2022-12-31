@@ -35,3 +35,16 @@ const intervalId3 = setInterval(function() {
     clearInterval(intervalId3);
   }
 }, 7);
+
+
+// haburger menu
+
+var ham = document.querySelector(".hamburger")
+var nav = document.querySelector(".navigation")
+
+function menuShow(){
+  // alert('hey')
+  nav.classList.toggle("menu-show")
+}
+
+ham.addEventListener("click", menuShow)

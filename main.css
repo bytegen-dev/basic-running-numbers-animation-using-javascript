@@ -24,14 +24,115 @@ body{
     width: 100vw;
     z-index: 1;
     box-shadow: 0px 2px 10px #0003;
-    background: rgba(255, 255, 255, 0.598);
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(10px);
     top: 0;
     left: 0;
+    /* max-height: 70px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px 25px;
+    transition: all 1s ease;
+    overflow: hidden;
+    height: 8%;
+    min-height: 70px;
+}
+
+.navigation.menu-show{
+    height: 100%;
+    /* max-height: 100vh; */
+}
+
+
+
+.nav-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
-    overflow: hidden;
+}
+
+.links-holder{
+    width: 100%;
+    /* background: green; */
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5vh;
+    font-size: 20px;
+}
+
+.links-holder a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: #0008;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+}
+
+
+.navigation.menu-show .links-holder a{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navigation.menu-show .links-holder a:hover{
+    color: #000f;
+}
+
+.holder-options{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.reload{
+    background: #fffd;
+    /* padding: 10px; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0005;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 50px;
+    opacity: 0;
+}
+
+.navigation.menu-show .reload{
+    opacity: 1;
+}
+
+.reload i{
+    transition: all 0.5s ease;
+}
+
+.reload:hover{
+    background: #000d;
+    color: #fff;
+}
+
+.reload:hover i{
+    animation: turn 1s linear infinite forwards;
+}
+
+@keyframes turn {
+    0%{transform: rotate(-700deg);}
+    100%{}
 }
 
 .logo{
@@ -96,5 +197,9 @@ body{
     /* border: 2px solid black; */
     font-size: 60px;
     color: #ffffff;
+}
+
+.link-holder{
+
 }
 
