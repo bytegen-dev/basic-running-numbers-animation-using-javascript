@@ -22,7 +22,10 @@
         font-size: 40px;
     }
 
-    
+    .social-links{
+        width: 100vw;
+        right: 0;
+    }
 
 }
 
