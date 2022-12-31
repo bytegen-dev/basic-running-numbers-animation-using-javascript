@@ -119,15 +119,15 @@ body{
 }
 
 .reload i{
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .reload:hover{
     background: #000d;
-    color: #fff;
 }
 
 .reload:hover i{
+    color: #fff;
     animation: turn 1s linear infinite forwards;
 }
 
