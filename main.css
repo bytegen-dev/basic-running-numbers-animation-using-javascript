@@ -151,9 +151,11 @@ body{
 }
 
 .hamburger{
-    /* width: 50px; */
-    /* height: 50px; */
-    /* border: 2px solid black; */
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    /* padding: 5px; */
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,9 +163,12 @@ body{
     font-size: 30px;
     transition: all 0.5s ease;
     cursor: pointer;
+    position: relative;
+    right: -10px;
 }
 
 .hamburger:hover{
+    border: 2px solid #0007;
     color: #000a;
 }
 
